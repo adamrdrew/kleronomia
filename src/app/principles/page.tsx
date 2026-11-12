@@ -1,0 +1,51 @@
+import { PhotoStudy } from "@/components/editorial-photo";
+import { ReadingConnections } from "@/components/reading-connections";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import content from "@/content/site.json";
+import { JoinCallout, PageHeading } from "@/components/editorial";
+import { pageMetadata } from "@/lib/metadata";
+export const metadata = pageMetadata(
+  "What We Believe",
+  "Ten foundational convictions about artificial intelligence and humanity's future.",
+  "/principles",
+);
+export default function Principles() {
+  return (
+    <>
+      <PageHeading
+        eyebrow="TEN FOUNDATIONAL PRINCIPLES"
+        title="What We Believe"
+      >
+        <p>
+          The Kleronomia Society is founded on ten convictions about artificial
+          intelligence and humanity’s future.
+        </p>
+      </PageHeading>
+      <div className="container principles-photographs">
+        <PhotoStudy image="bee" />
+        <PhotoStudy image="grain" />
+      </div>
+      <div className="container principles-list">
+        {content.principles.map((p, i) => (
+          <section key={p.number}>
+            <span className="principle-number">{p.number}</span>
+            <div>
+              <h2>{p.title}</h2>
+              <p>{p.body}</p>
+              <Link
+                href={`/manifesto#principle-${i + 1}`}
+                className="text-link"
+              >
+                Read conviction {p.number}
+                <ArrowUpRight size={15} />
+              </Link>
+            </div>
+          </section>
+        ))}
+      </div>
+      <ReadingConnections subject="principles" />
+      <JoinCallout />
+    </>
+  );
+}
