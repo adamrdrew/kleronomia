@@ -72,15 +72,15 @@ export function JoinCallout() {
   return (
     <aside className="join-callout container">
       <div>
-        <p className="eyebrow">THE NEXT CHAPTER</p>
+        <p className="eyebrow">FROM THE SOCIETY</p>
         <h2>
           {available
             ? "The future is our inheritance."
-            : "Keep the conversation going."}
+            : "Read more from the Society."}
         </h2>
         {!available && (
           <p className="callout-description">
-            Explore the essays, or follow new publications by RSS.
+            Browse the essays or add our RSS feed to your reader.
           </p>
         )}
       </div>

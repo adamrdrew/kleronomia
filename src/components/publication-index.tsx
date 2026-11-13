@@ -69,7 +69,7 @@ export function PublicationIndex({ articles }: { articles: Listing[] }) {
             id="essay-search"
             type="search"
             value={query}
-            placeholder="Follow a thought. Search the essays…"
+            placeholder="Search essays…"
             onChange={(e) => setQuery(e.target.value)}
           />
           {query && (
@@ -163,11 +163,8 @@ export function PublicationIndex({ articles }: { articles: Listing[] }) {
       </div>
       {!visible.length && (
         <div className="empty-category">
-          <h3>No essays match this thought yet.</h3>
-          <p>
-            Try a broader search, choose another subject, or return to the
-            complete library.
-          </p>
+          <h3>No matching essays.</h3>
+          <p>Try another search or clear the filters to see all essays.</p>
           <button className="text-link" onClick={reset}>
             View all essays
             <ArrowRight size={16} />

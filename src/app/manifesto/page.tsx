@@ -5,7 +5,7 @@ import { Copy, JoinCallout, PageHeading } from "@/components/editorial";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "The Kleronomia Manifesto",
-  "A declaration of confidence in intelligence, humanity, and the future they will share.",
+  "Our positions on AI development, governance, optional labor, and humanity’s future.",
   "/manifesto",
 );
 export default function Manifesto() {
@@ -16,8 +16,8 @@ export default function Manifesto() {
         title="The Kleronomia Manifesto"
       >
         <p>
-          A declaration of confidence in intelligence, humanity, and the future
-          they will share.
+          Our positions on AI development, governance, optional labor, and
+          humanity’s future.
         </p>
       </PageHeading>
       <div className="container document-layout">

@@ -79,10 +79,10 @@ export default async function ReadingPathPage({
       </ol>
       <div className="container path-finish">
         <p className="eyebrow">WHERE THIS PATH LEADS</p>
-        <h2>Keep the conversation going.</h2>
+        <h2>More on this subject.</h2>
         <p>
-          Explore the full subject, return to the founding declaration, or take
-          another route through the library.
+          Find other essays on this subject or read our positions in the
+          manifesto.
         </p>
         <div className="inline-actions">
           <Link className="text-link" href={`/ideas/${topic.slug}`}>

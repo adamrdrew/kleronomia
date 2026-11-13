@@ -6,7 +6,7 @@ export function ReadingConnections({
 }) {
   const collections = {
     manifesto: {
-      title: "The declaration, developed.",
+      title: "Essays on our positions.",
       slugs: [
         "the-intellectual-inheritance",
         "civilization-beyond-election-cycles",
@@ -14,7 +14,7 @@ export function ReadingConnections({
       ],
     },
     principles: {
-      title: "Follow the convictions into the arguments.",
+      title: "The arguments behind the principles.",
       slugs: [
         "intelligence-is-not-a-throne",
         "the-moral-cost-of-delay",
@@ -22,7 +22,7 @@ export function ReadingConnections({
       ],
     },
     future: {
-      title: "Make the possibilities more concrete.",
+      title: "Imagining daily life with AI.",
       slugs: [
         "when-intelligence-comes-to-you",
         "the-greatest-friendship",

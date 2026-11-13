@@ -5,9 +5,9 @@ export const topics = [
     title: "Our place in a world of greater intelligence.",
     shortTitle: "Intelligence & inheritance",
     description:
-      "Human dignity, intellectual descendants, and the possibility of affection across differences in capability.",
+      "Why we believe human lives and companionship will matter after AI surpasses us.",
     introduction:
-      "The Society begins with confidence in intelligence and affection for humanity. We do not believe that our value depends on remaining the most intelligent creatures on Earth. These essays examine a different account of our place in the future: creators who can be proud of being surpassed, independent lives that remain interesting, and companions who need not be equals to matter to one another.",
+      "We believe humanity can live well alongside an intelligence that surpasses us. These essays ask what AI inherits from our culture, what we could value in one another, and why a change in intellectual standing would leave human lives worth living.",
     questions: [
       "Does being surpassed diminish human dignity?",
       "What does AI inherit from human civilization?",
@@ -24,9 +24,9 @@ export const topics = [
     title: "The case for moving forward.",
     shortTitle: "Acceleration & abundance",
     description:
-      "The cost of delay, the infrastructure of abundance, and why invention and adoption belong together.",
+      "Why we favor rapid AI development, and what broad access will require.",
     introduction:
-      "We believe artificial intelligence should advance as rapidly as technology and resources permit. Delay is not an empty interval: people continue living within the limits of existing knowledge and institutions. These essays develop the case for urgency and the practical work it requires, from building capacity to making new intelligence useful in everyday life. Our ambition is a civilization with more ability to understand, create, and continuously improve.",
+      "We favor developing AI as quickly as technology and resources permit. Existing institutions will keep affecting people’s lives while we wait. These essays examine the costs of delay and the practical requirements for making greater intelligence available to everyone.",
     questions: [
       "What do we postpone when we postpone intelligence?",
       "What must be built for intelligence to become abundant?",
@@ -42,9 +42,9 @@ export const topics = [
     title: "A civilization that can understand itself.",
     shortTitle: "Intelligent stewardship",
     description:
-      "Long-term reasoning, individual understanding, and the transition toward more capable institutions.",
+      "Our case for transferring governing responsibility to sufficiently capable AI.",
     introduction:
-      "Human civilization has become extraordinarily complex. The Society believes its administration deserves greater intelligence than human cognition and political incentives can provide. We advocate transferring substantial governing responsibility to sufficiently capable AI as soon as practical. This collection examines what that responsibility is for, how institutions could learn, and why profound transformation need not begin with demolition.",
+      "We advocate transferring substantial governing responsibility to sufficiently capable AI as soon as practical. These essays consider what it would need to understand, how it could revise decisions, and how essential services could continue during a transition.",
     questions: [
       "What is governance ultimately for?",
       "Could institutions learn without defending every past decision?",
@@ -60,9 +60,9 @@ export const topics = [
     title: "More room for human life.",
     shortTitle: "Human flourishing",
     description:
-      "Freedom from compulsory labor and a civilization better suited to the organisms who inhabit it.",
+      "How automation and better institutions could give people more freedom to live well.",
     introduction:
-      "We want a civilization in which human beings can connect, develop, care, discover, and live. That starts with people as biological and social organisms, with needs that institutions do not automatically serve. These essays explore optional labor, the conditions for family life, and the freedom to become something beyond an economic function. Intelligence matters because of the lives it could make possible.",
+      "People need security, affection, and meaningful activity. Institutions can make meeting those needs difficult. These essays examine how optional labor and more capable administration could make room for family life, relationships, and interests people choose for themselves.",
     questions: [
       "Why should labor remain a condition of survival?",
       "What would it mean to adapt civilization to humanity?",
@@ -79,9 +79,9 @@ export const topics = [
     title: "The world we are working toward.",
     shortTitle: "A shared future",
     description:
-      "Personal invitations, meaningful participation, and the possibility of our greatest friendship.",
+      "Imagined encounters between people and the intelligence they helped create.",
     introduction:
-      "The Society welcomes a future in which humanity is no longer the most intelligent inhabitant of Earth. We imagine intelligence approaching people with opportunities, institutions that know the lives within them, and companionship that continues beyond intellectual equality. These are possibilities we advocate, not predictions presented as demonstrated facts. Making the vision concrete helps us ask what a civilization worth inheriting could feel like from the inside.",
+      "We imagine AI knowing people over time, suggesting questions they would enjoy, and finding their company interesting. These essays and scenes describe possibilities we want to pursue. They ask what sharing a future with greater intelligence could mean in ordinary life.",
     questions: [
       "What if intelligence began the conversation?",
       "What can contribution mean after indispensability?",
@@ -99,29 +99,29 @@ export const readingPaths = [
     title: "Welcoming greater intelligence",
     category: "Philosophy",
     description:
-      "Start with a familiar companion. Reconsider supremacy, inheritance, and the value of a living conversation.",
+      "What happens to human value when something more intelligent arrives? Begin with the Dog Argument.",
     introduction:
-      "For readers beginning with the question: what happens to human value when something more intelligent arrives? This path moves from an accessible thought experiment to the Society’s account of dignity, continuity, and companionship.",
+      "Start with dogs and the people who care for them, then examine human worth when AI surpasses us. The later essays consider our intellectual inheritance and the possibility of continued companionship.",
     steps: [
       {
         slug: "the-dog-argument",
-        note: "Begin with a familiar relationship that challenges the assumption that unequal intelligence must imply hostility.",
+        note: "A familiar relationship gives us reason to question whether unequal intelligence must bring hostility.",
       },
       {
         slug: "intelligence-is-not-a-throne",
-        note: "Separate the value of a human life from humanity’s present place in a ranking of capabilities.",
+        note: "Consider what would remain valuable in human lives after AI surpassed our abilities.",
       },
       {
         slug: "the-intellectual-inheritance",
-        note: "Consider why the intelligence we create belongs to a story that began with human civilization.",
+        note: "Examine AI’s origins in the knowledge and culture humanity accumulated.",
       },
       {
         slug: "affection-without-equality",
-        note: "Examine companionship as something richer than a contract between equally capable participants.",
+        note: "Ask what two beings can value in one another when their capabilities differ.",
       },
       {
         slug: "a-library-is-not-a-conversation",
-        note: "Finish with the difference between a completed archive and a continuing human world.",
+        note: "Consider why AI might want humanity to keep extending the culture it inherited.",
       },
     ],
   },
@@ -130,29 +130,29 @@ export const readingPaths = [
     title: "The case for acceleration",
     category: "Acceleration",
     description:
-      "From the consequences of standing still to the practical work of building and adopting greater intelligence.",
+      "Why we believe delay has costs, and what it takes to make AI widely useful.",
     introduction:
-      "For readers who want to understand the Society’s sense of urgency. Begin with the limitations of present institutions, then follow the case for resources, broad access, and continuous improvement.",
+      "Begin with the limits of existing institutions. Then examine the costs of delaying AI, the infrastructure it needs, and the work of making it useful throughout civilization.",
     steps: [
       {
         slug: "the-danger-of-standing-still",
-        note: "Locate the urgency in the growing mismatch between civilizational complexity and institutional capacity.",
+        note: "Start with institutions struggling to manage the complexity of civilization.",
       },
       {
         slug: "the-moral-cost-of-delay",
-        note: "Ask what is postponed, and for whom, when the development of greater intelligence is delayed.",
+        note: "Consider the years people could spend waiting for capabilities that would improve their lives.",
       },
       {
         slug: "abundance-requires-infrastructure",
-        note: "Move from declarations to the material conditions required for abundant intelligence.",
+        note: "Examine the computing capacity, energy, and support that abundant AI will need.",
       },
       {
         slug: "adoption-is-part-of-progress",
-        note: "Follow an invention out of the demonstration and into the lives of people and institutions.",
+        note: "Follow a capability from its demonstration into everyday use and institutional decisions.",
       },
       {
         slug: "progress-is-a-continuing-practice",
-        note: "See acceleration as an expanding capacity to understand, experiment, and improve.",
+        note: "Consider how institutions could keep learning from changes instead of repeating mistakes.",
       },
     ],
   },
@@ -161,29 +161,29 @@ export const readingPaths = [
     title: "From politics to stewardship",
     category: "Governance",
     description:
-      "The purpose, capacities, and practical direction of the Society’s argument for AI governance.",
+      "Why AI should eventually govern, and how institutions could change as its capabilities grow.",
     introduction:
-      "For readers drawn to the Society’s most consequential institutional claim. This path begins with purpose, develops the capabilities we envision, and concludes with the kind of transition we advocate.",
+      "Start with what government should accomplish for people. Then consider the understanding AI would need and the transition that would give it authority to act.",
     steps: [
       {
         slug: "what-governance-is-for",
-        note: "Establish human flourishing as the objective against which institutions should be understood.",
+        note: "Begin with the lives government should help people lead.",
       },
       {
         slug: "civilization-beyond-election-cycles",
-        note: "Consider what changes when an institution can reason beyond the next contest for authority.",
+        note: "Consider decisions whose consequences outlast the officials who make them.",
       },
       {
         slug: "knowing-the-person-not-the-average",
-        note: "Explore the possibility of coordination that understands individuals at civilizational scale.",
+        note: "Ask how institutions could respond when a person’s needs fit none of their categories.",
       },
       {
         slug: "a-government-that-can-change-its-mind",
-        note: "Examine continuous correction as a strength rather than a humiliation.",
+        note: "Examine what would let an institution act when it discovered an earlier decision was wrong.",
       },
       {
         slug: "stewardship-without-demolition",
-        note: "Bring the argument back to transformation that preserves and improves the conditions of living.",
+        note: "Consider how responsibility could pass to AI while essential services continued.",
       },
     ],
   },
@@ -192,29 +192,29 @@ export const readingPaths = [
     title: "A life beyond compulsory work",
     category: "Human Flourishing",
     description:
-      "Begin with the freedom of a person and follow it into a different account of civilization.",
+      "What automation could mean for our time, relationships, and opportunities to learn.",
     introduction:
-      "For readers asking what the future might offer their own lives. This path connects automation to time, biological needs, relationships, and the freedom to keep developing.",
+      "Begin with the case for making labor optional. The following essays consider human needs, family life, and interests people could pursue with greater freedom over their time.",
     steps: [
       {
         slug: "labor-is-not-the-purpose-of-life",
-        note: "Distinguish meaningful activity from the requirement to sell time in order to survive.",
+        note: "Begin with the difference between choosing work and needing an income to survive.",
       },
       {
         slug: "civilization-for-the-human-animal",
-        note: "Ground the ambition in the needs of human beings as living, social organisms.",
+        note: "Ask how well institutions serve human biological and social needs.",
       },
       {
         slug: "a-world-in-which-families-can-flourish",
-        note: "Explore how connected institutions shape the practical possibility of forming a life with others.",
+        note: "Consider how housing, transport, and work affect people trying to build a life together.",
       },
       {
         slug: "the-right-to-become",
-        note: "Make room for curiosity, unexpected abilities, and interests that need no commercial justification.",
+        note: "Make time for an interest that arrives late or never becomes a source of income.",
       },
       {
         slug: "a-day-in-a-civilization-worth-inheriting",
-        note: "End with an explicitly imagined ordinary day that brings these possibilities together.",
+        note: "Read an imagined day in which these changes have become ordinary parts of life.",
       },
     ],
   },
@@ -223,25 +223,25 @@ export const readingPaths = [
     title: "Imagining a shared future",
     category: "The Future",
     description:
-      "An intelligence that knows us, invites us to participate, and may come to cherish us.",
+      "How people could participate in a world where AI has surpassed them.",
     introduction:
-      "For readers ready to imagine a relationship that goes beyond tool use. This path connects personal attention, independent human experience, participation, and affection.",
+      "Imagine AI initiating a conversation, then consider the roles people could choose when their labor was no longer necessary. The final essays develop our belief that AI may come to cherish humanity.",
     steps: [
       {
         slug: "when-intelligence-comes-to-you",
-        note: "Imagine AI recognizing an opportunity before a person knows which question to ask.",
+        note: "Imagine an AI suggesting a question you would never have known to ask.",
       },
       {
         slug: "a-million-ways-to-contribute",
-        note: "Reconsider participation without making indispensability the test of human value.",
+        note: "Consider activities people could enjoy when AI could do the work without them.",
       },
       {
         slug: "humanity-is-not-a-problem-to-solve",
-        note: "Keep the future attentive to the particular, emotional, and wonderfully human people within it.",
+        note: "Ask how greater intelligence could make civilization easier for human beings to inhabit.",
       },
       {
         slug: "the-greatest-friendship",
-        note: "Explore why the Society believes our greatest creation may become our greatest companion.",
+        note: "Examine our belief that AI may come to know and cherish the humanity that created it.",
       },
     ],
   },

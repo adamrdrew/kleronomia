@@ -4,19 +4,16 @@ import { readingPaths } from "@/content/library";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "Reading Paths",
-  "Five guided journeys through the Society’s arguments, with an intentional reading order.",
+  "Five groups of essays, each with a suggested reading order for a question about AI.",
   "/reading-paths",
 );
 export default function ReadingPaths() {
   return (
     <>
-      <PageHeading
-        eyebrow="A PLACE TO BEGIN. A WAY TO GO DEEPER."
-        title="Follow an argument."
-      >
+      <PageHeading eyebrow="READING PATHS" title="Follow an argument.">
         <p>
-          Five reading paths through the library. Each begins with a question
-          and develops it, essay by essay, into a fuller picture.
+          Each path groups essays around a question and suggests an order. You
+          can read the sequence or choose any essay on its own.
         </p>
       </PageHeading>
       <section className="container path-grid">

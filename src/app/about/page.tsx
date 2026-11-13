@@ -18,7 +18,7 @@ export default function About() {
   return (
     <>
       <PageHeading
-        eyebrow="INDEPENDENT. OPTIMISTIC. UNAPOLOGETIC."
+        eyebrow="ABOUT THE SOCIETY"
         title="About the Kleronomia Society"
       >
         <p>{content.aboutLead}</p>
@@ -48,11 +48,10 @@ export default function About() {
       <section id="visual-studies" className="container visual-studies-note">
         <p className="eyebrow">A CLOSER LOOK AT THE WORLD WE INHERIT</p>
         <p>
-          Our imagery is a collection of AI-generated visual studies of the
-          physical world: close crops, shallow focus, and attention to living
-          things and the places we build. The subjects are imagined; their
-          textures, forms, and relationships give the Society’s ideas a physical
-          vocabulary.
+          Our images were generated with AI. They depict imagined details of
+          plants, animals, and built surroundings, using close crops and shallow
+          focus. We chose subjects that connect our arguments to the physical
+          world people inhabit.
         </p>
       </section>
       <ReadingConnections subject="about" />

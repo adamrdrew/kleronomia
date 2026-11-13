@@ -147,7 +147,7 @@ export default async function Article({
               </nav>
             )}
             <div className="article-subject">
-              <p className="eyebrow">PART OF A LARGER IDEA</p>
+              <p className="eyebrow">RELATED SUBJECT</p>
               <Link href={`/ideas/${topic.slug}`}>
                 {topic.shortTitle}
                 <ArrowUpRight size={15} />
@@ -188,7 +188,7 @@ export default async function Article({
       {paths.length > 0 && (
         <section className="container article-paths">
           <p className="eyebrow">READ THIS IN CONTEXT</p>
-          <h2>Part of a continuing argument.</h2>
+          <h2>Reading paths with this essay.</h2>
           {paths.map((path) => {
             const sequence = pathArticles(path);
             const index = sequence.findIndex((s) => s.slug === slug);
@@ -245,7 +245,7 @@ export default async function Article({
         </section>
       )}
       <section className="container related-publications">
-        <p className="eyebrow">CONTINUE THE CONVERSATION</p>
+        <p className="eyebrow">RELATED ESSAYS</p>
         <h2>Further reading.</h2>
         <div className="publication-grid">
           {relatedPublications(article).map((a) => (

@@ -42,8 +42,8 @@ export default function Future() {
       </div>
       <div className="future-quote">
         <blockquote className="container">
-          The future does not require humanity to become something else. It
-          requires civilization to become <em>worthy of humanity.</em>
+          We want civilization to become easier for human beings to inhabit,
+          with more time for <em>the lives they choose.</em>
         </blockquote>
       </div>
       <ReadingConnections subject="future" />

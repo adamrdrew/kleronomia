@@ -6,7 +6,7 @@ import { getPublication } from "@/lib/publications";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "A Glossary of Ideas",
-  "The Society’s vocabulary: acceleration, inheritance, flourishing, optional labor, stewardship, and companionship.",
+  "Definitions of the terms we use in our arguments, with links to related essays.",
   "/glossary",
 );
 export default function Glossary() {
@@ -19,8 +19,8 @@ export default function Glossary() {
         title="A glossary of ideas."
       >
         <p>
-          A guide to the words we use, the convictions behind them, and the
-          essays that develop them.
+          What we mean by the terms in our arguments, with links to the essays
+          that explain them.
         </p>
       </PageHeading>
       <nav

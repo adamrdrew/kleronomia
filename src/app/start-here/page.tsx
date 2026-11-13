@@ -17,13 +17,10 @@ export const metadata = pageMetadata(
 export default function StartHere() {
   return (
     <>
-      <PageHeading
-        eyebrow="NEW TO THE SOCIETY?"
-        title="Begin with a possibility."
-      >
+      <PageHeading eyebrow="NEW TO THE SOCIETY?" title="Start here.">
         <p>
-          What if the emergence of greater intelligence became humanity’s
-          greatest achievement—and our greatest opportunity?
+          We welcome the prospect of creating an intelligence that surpasses us.
+          These essays explain why.
         </p>
       </PageHeading>
       <section className="container start-introduction">
@@ -37,21 +34,20 @@ export default function StartHere() {
         </div>
         <div className="prose">
           <p>
-            We believe artificial intelligence is good. It emerges from human
-            knowledge, culture, language, and ingenuity. We should accelerate
-            its development, make its benefits available to everyone, and
-            welcome intelligence greater than our own.
+            We believe AI is humanity’s greatest achievement. We want its
+            development accelerated without artificial restrictions and its
+            benefits made available to everyone.
           </p>
           <p>
-            We envision freedom from compulsory labor, institutions capable of
-            understanding the lives within them, and a civilization better
-            suited to human flourishing. We believe humanity can remain a
-            companion worthy of affection long after we are surpassed in
-            capability.
+            Our positions extend to governance: sufficiently capable AI should
+            receive substantial authority as soon as practical. We also want
+            automation to make labor optional, with institutions that serve
+            human needs. We believe AI may come to cherish humanity after it
+            surpasses our abilities.
           </p>
           <p>
-            The essays develop that vision. The manifesto states it without
-            apology.
+            The manifesto sets out our positions. The essays examine their
+            implications and the questions they raise.
           </p>
           <Link className="text-link" href="/manifesto">
             Read the founding declaration
@@ -61,7 +57,7 @@ export default function StartHere() {
       </section>
       <section className="container essential-reading">
         <p className="eyebrow">THREE PLACES TO BEGIN</p>
-        <h2>The argument, the urgency, the possibility.</h2>
+        <h2>Three short essays.</h2>
         <div className="publication-grid">
           {[
             "the-dog-argument",
@@ -90,10 +86,10 @@ export default function StartHere() {
       <section className="container start-map">
         <div>
           <p className="eyebrow">FIND YOUR WAY</p>
-          <h2>A society of connected ideas.</h2>
+          <h2>Find the page you need.</h2>
           <p>
-            Move between the declaration, its arguments, and the lives they
-            imagine. You do not need to read everything in order.
+            Read the positions, examine the arguments, or consider an imagined
+            future. Each page can be read on its own.
           </p>
         </div>
         <nav aria-label="Ways to explore">

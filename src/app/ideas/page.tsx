@@ -10,13 +10,10 @@ export const metadata = pageMetadata(
 export default function Ideas() {
   return (
     <>
-      <PageHeading
-        eyebrow="FIVE CONNECTED SUBJECTS"
-        title="One extraordinary possibility."
-      >
+      <PageHeading eyebrow="FIVE CONNECTED SUBJECTS" title="Explore the ideas.">
         <p>
-          Different questions. A shared conviction: greater intelligence can
-          help humanity flourish. Choose a subject and follow the argument.
+          We believe greater intelligence can help humanity flourish. Choose a
+          subject to read our case and the questions behind it.
         </p>
       </PageHeading>
       <section className="container ideas-index topic-list">

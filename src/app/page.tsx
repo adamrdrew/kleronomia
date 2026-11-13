@@ -67,9 +67,7 @@ export default function Home() {
             <span className="gold-rule" />
             THE KLERONOMIA SOCIETY
           </p>
-          <span className="edition-label">
-            INTELLIGENCE. HUMANITY. POSSIBILITY.
-          </span>
+          <span className="edition-label">FOR THE DEVELOPMENT OF AI</span>
         </div>
         <div className="hero-grid">
           <div className="hero-copy">
@@ -103,7 +101,7 @@ export default function Home() {
             A FUTURE WORTH WELCOMING
             <ArrowDown size={15} />
           </a>
-          <span>Independent thought. Extraordinary possibility.</span>
+          <span>An independent AI advocacy initiative.</span>
         </div>
         <nav
           className="home-section-index"
@@ -131,23 +129,19 @@ export default function Home() {
           <span className="eyebrow">NEW TO THE SOCIETY?</span>
           <strong>A place to begin.</strong>
           <p>
-            The convictions, the essential essays, and a way into the
-            conversation.
+            An introduction to our positions and three essays to start with.
           </p>
           <ArrowUpRight size={19} />
         </Link>
         <Link href="/reading-paths">
           <span className="eyebrow">FOLLOW AN ARGUMENT</span>
-          <strong>Read with a direction.</strong>
-          <p>
-            Five guided journeys through the questions that connect our
-            worldview.
-          </p>
+          <strong>Choose a reading path.</strong>
+          <p>Essays grouped by question, with a suggested reading order.</p>
           <ArrowUpRight size={19} />
         </Link>
         <Link href="/questions">
           <span className="eyebrow">ASK A QUESTION</span>
-          <strong>Go to the heart of it.</strong>
+          <strong>Common questions.</strong>
           <p>
             Direct answers on acceleration, governance, work, and companionship.
           </p>
@@ -273,9 +267,9 @@ export default function Home() {
           <Emblem className="closing-emblem" />
           <p className="eyebrow">THE FUTURE IS OUR INHERITANCE</p>
           <h2>
-            The future is not waiting
+            Help bring this
             <br />
-            for <em>permission.</em>
+            future <em>closer.</em>
           </h2>
           <Copy text={closing.body!} />
           <SocietyAction className="button button-gold" />

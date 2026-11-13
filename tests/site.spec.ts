@@ -153,7 +153,7 @@ test("category filters, sharing, and honest fallback states work", async ({
   ).toHaveCount(5);
   await page.getByRole("searchbox").fill("a question with no matching essay");
   await expect(
-    page.getByRole("heading", { name: "No essays match this thought yet." }),
+    page.getByRole("heading", { name: "No matching essays." }),
   ).toBeVisible();
   await page.getByRole("button", { name: "View all essays" }).click();
   await expect(
@@ -184,7 +184,7 @@ test("category filters, sharing, and honest fallback states work", async ({
   await page.goto("/contact");
   await expect(
     page.getByRole("heading", {
-      name: "Contact information will be announced soon.",
+      name: "Contact details are not yet available.",
     }),
   ).toBeVisible();
 });

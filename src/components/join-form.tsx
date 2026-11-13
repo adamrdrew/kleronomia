@@ -14,7 +14,7 @@ export function JoinForm({
       <div className="form-success" role="status">
         <Check size={32} />
         <h2>Welcome to the Kleronomia Society.</h2>
-        <p>Thank you for joining us at the beginning.</p>
+        <p>You’re signed up for publications and announcements.</p>
         <Link href="/publications" className="text-link">
           Explore our publications
           <ArrowUpRight size={17} />
@@ -95,8 +95,8 @@ export function JoinForm({
         <ArrowUpRight size={17} />
       </button>
       <p className="form-note">
-        A mailing-list signup and expression of interest. No formal legal
-        membership is created.
+        Signing up adds you to our mailing list. It does not create formal legal
+        membership.
       </p>
     </form>
   );

@@ -76,13 +76,13 @@ export function ExploreLibrary({ compact = false }: { compact?: boolean }) {
       className={`container explore-library ${compact ? "compact-explore" : ""}`}
     >
       <div className="section-topline">
-        <p className="eyebrow">A CONNECTED BODY OF IDEAS</p>
+        <p className="eyebrow">ESSAYS BY SUBJECT</p>
         <Link className="text-link" href="/ideas">
           Explore every subject
           <ArrowUpRight size={17} />
         </Link>
       </div>
-      <h2>Follow your curiosity.</h2>
+      <h2>Choose a subject.</h2>
       <div className="topic-list">
         {topics.map((topic, i) => (
           <TopicCard key={topic.slug} topic={topic} index={i} />

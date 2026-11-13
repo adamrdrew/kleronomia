@@ -26,8 +26,9 @@ export default function Join() {
         title={available ? "Join the Future" : "Follow the Future"}
       >
         <p>
-          The Kleronomia Society is building a community around an
-          unapologetically optimistic vision of artificial intelligence.
+          {available
+            ? "Read our work, share an argument, or sign up for publications and announcements."
+            : "Read our work, share an argument, or follow new publications through our RSS feed."}
         </p>
       </PageHeading>
       <div className="container join-layout">
@@ -39,17 +40,17 @@ export default function Join() {
         </div>
         <div className="form-panel">
           <p className="eyebrow">
-            {available ? "AT THE BEGINNING" : "READ. FOLLOW. SHARE."}
+            {available ? "MAILING LIST" : "NEW PUBLICATIONS"}
           </p>
           {available ? (
             <JoinForm contactAvailable={!!site.email} />
           ) : (
             <div className="unavailable-state">
               <Rss size={28} strokeWidth={1} />
-              <h2>Follow the conversation.</h2>
+              <h2>Read new essays.</h2>
               <p>
-                Mailing-list signup is not yet available. You can read every
-                essay now, and follow RSS for new publications in your reader.
+                Mailing-list signup is not yet available. Every essay is open to
+                read, and new publications appear in our RSS feed.
               </p>
               <Link href="/publications" className="button">
                 Read essays

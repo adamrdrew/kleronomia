@@ -32,8 +32,8 @@ export default function Publications() {
         title="Ideas for what comes next."
       >
         <p>
-          A connected library of arguments for a future worth welcoming. Read by
-          subject, follow a path, or begin with a question.
+          Essays on AI development and the future we want it to make possible.
+          Search the library or choose a subject below.
         </p>
       </PageHeading>
       <section className="container journal-front">
@@ -43,7 +43,7 @@ export default function Publications() {
             className="journal-feature-photo"
             decorative
           />
-          <p className="eyebrow">AN ESSENTIAL STARTING POINT</p>
+          <p className="eyebrow">START WITH THE DOG ARGUMENT</p>
           <h2>
             <Link href={`/publications/${featured.slug}`}>
               {featured.title}
@@ -63,16 +63,16 @@ export default function Publications() {
           <Link href="/reading-paths">
             <span>Follow an argument.</span>
             <p>
-              {readingPaths.length} guided reading paths, from first principles
-              to a fuller vision.
+              {readingPaths.length} reading paths with a suggested order for
+              each question.
             </p>
             <ArrowUpRight size={20} />
           </Link>
           <Link href="/ideas">
             <span>Explore a subject.</span>
             <p>
-              {topics.length} connected themes, each with its questions and
-              essential essays.
+              {topics.length} subjects, each with an introduction and related
+              essays.
             </p>
             <ArrowUpRight size={20} />
           </Link>
@@ -87,7 +87,7 @@ export default function Publications() {
         <span>{all.length} essays</span>
         <span>{topics.length} subjects</span>
         <span>{readingPaths.length} reading paths</span>
-        <span>An open invitation to think further.</span>
+        <span>Open to all readers.</span>
       </div>
       <PublicationIndex articles={articles} />
       <JoinCallout />

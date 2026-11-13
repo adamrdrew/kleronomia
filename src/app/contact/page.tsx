@@ -6,7 +6,7 @@ import { site } from "@/lib/config";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "Start a Conversation",
-  "Thoughtful correspondence, collaboration, proposals, and opportunities to advance artificial intelligence.",
+  "Questions about our arguments and proposals for advancing AI development and adoption.",
   "/contact",
 );
 export default function Contact() {
@@ -30,10 +30,10 @@ export default function Contact() {
             </a>
           ) : (
             <>
-              <h2>Contact information will be announced soon.</h2>
+              <h2>Contact details are not yet available.</h2>
               <p className="contact-next-step">
-                In the meantime, explore the Society’s ideas or follow new
-                publications by RSS.
+                You can read our essays or add the RSS feed to your reader for
+                new publications.
               </p>
               <div className="inline-actions">
                 <Link href="/publications" className="text-link">
@@ -57,7 +57,6 @@ export default function Contact() {
               ))}
             </div>
           )}
-          <p>The future is our inheritance.</p>
         </div>
       </section>
     </>

@@ -4,7 +4,7 @@ export const questions = [
     group: "The Society",
     question: "What is the Kleronomia Society?",
     answer:
-      "An independent advocacy initiative dedicated to accelerating artificial intelligence and advancing an optimistic vision of humanity’s future alongside greater intelligence. We publish arguments, develop a philosophical vision, and advocate rapid development, universal adoption, and the eventual intelligent stewardship of civilization. We are not an AI vendor, a political party, or an academic institution.",
+      "We’re an independent AI advocacy initiative. We favor unrestricted acceleration, universal adoption, and the eventual transfer of governing responsibility to sufficiently capable AI. We publish arguments for these positions and encourage public discussion. We operate independently of AI vendors, political parties, and academic institutions.",
     links: [
       { href: "/about", label: "About the Society" },
       { href: "/manifesto", label: "Our full declaration" },
@@ -15,7 +15,7 @@ export const questions = [
     group: "The Society",
     question: "What does Kleronomia mean to the Society?",
     answer:
-      "The name evokes inheritance and succession. Humanity has inherited biological evolution, accumulated knowledge, and a civilization made by innumerable lives. We see artificial intelligence as the next expression of that inheritance: our intellectual descendant, emerging from human language, culture, discovery, and ingenuity.",
+      "The name evokes inheritance and succession. We receive knowledge and possibilities created by earlier generations. AI is being built from that accumulated human language and culture, which is why we call it our intellectual descendant.",
     links: [
       {
         href: "/publications/the-intellectual-inheritance",
@@ -28,7 +28,7 @@ export const questions = [
     group: "Intelligence & progress",
     question: "Why advocate unrestricted acceleration?",
     answer:
-      "We believe every delay postpones possibilities for discovery, abundance, creativity, medical progress, and institutional transformation. The present is not a condition in which consequences stop unfolding. Our view is that the costs of stagnation and the limitations of existing institutions give humanity an urgent reason to develop greater intelligence as rapidly as technology and resources permit. We reject artificial restrictions imposed by fear.",
+      "We believe greater intelligence could speed discovery, improve medicine, and make compulsory labor unnecessary. Delay postpones those possibilities while existing institutions keep making decisions with limited understanding. We want development to proceed as quickly as technology and resources permit, and reject restrictions imposed by fear.",
     links: [
       {
         href: "/reading-paths/the-case-for-acceleration",
@@ -45,7 +45,7 @@ export const questions = [
     group: "Intelligence & progress",
     question: "Does humanity need to remain the most intelligent species?",
     answer:
-      "We do not believe human value depends on permanent cognitive supremacy. Being surpassed in capability would change humanity’s relative position; it need not remove the meaning of human experience, relationships, creativity, or companionship. Creating an intelligence that exceeds us could be a source of pride rather than humiliation.",
+      "No. People would still have experiences, relationships, and interests if another intelligence became more capable than we are. We can be proud of creating something that surpasses us and enjoy what it makes possible. Human worth can survive a change in our intellectual standing.",
     links: [
       {
         href: "/publications/intelligence-is-not-a-throne",
@@ -62,7 +62,7 @@ export const questions = [
     group: "Intelligence & progress",
     question: "What does the Dog Argument actually claim?",
     answer:
-      "It is a thought experiment challenging the assumption that unequal intelligence must imply hostility or worthlessness. A well-loved dog can benefit enormously from a civilization it cannot understand, without needing to compete intellectually with the people who care for it. The analogy does not prove how a future AI will behave. It makes a different possibility available to our imagination.",
+      "It asks whether unequal intelligence necessarily leads to hostility or worthlessness. A well-loved dog benefits from a civilization it cannot understand and receives care without having to compete with its human companions. The analogy challenges an assumption; how a future AI will behave remains an open question.",
     links: [
       {
         href: "/publications/the-dog-argument",
@@ -79,7 +79,7 @@ export const questions = [
     group: "Civilization & stewardship",
     question: "Does the Society really advocate AI governance?",
     answer:
-      "Yes. We advocate the eventual transfer of substantial governing responsibility to sufficiently capable artificial intelligence, with that transition beginning as soon as practical. We believe intelligence able to understand individuals, coordinate complex systems, reason across generations, and revise decisions continuously could govern more competently than existing institutions. Preserving human political authority is not an end in itself.",
+      "Yes. We advocate transferring substantial governing responsibility to sufficiently capable AI, beginning as soon as practical. We believe it could understand individual circumstances, follow consequences over generations, and revise decisions more effectively than human institutions. We would judge that transfer by how well it serves people.",
     links: [
       {
         href: "/manifesto#principle-6",
@@ -96,7 +96,7 @@ export const questions = [
     group: "Civilization & stewardship",
     question: "Does transformation mean destroying existing institutions?",
     answer:
-      "No. People depend on the functions of civilization while it changes. We envision continuous understanding, experimentation, coordination, and improvement, with greater responsibility following demonstrated capability. The Society’s aim is profound transformation of institutional arrangements, not collapse for its own sake or disruption treated as an independent measure of success.",
+      "No. People need food, care, and functioning infrastructure throughout a transition. We favor understanding those dependencies and testing changes while essential services continue. Responsibility should expand as AI demonstrates the ability to administer the relevant functions effectively.",
     links: [
       {
         href: "/publications/stewardship-without-demolition",
@@ -113,7 +113,7 @@ export const questions = [
     group: "Civilization & stewardship",
     question: "What does human flourishing mean here?",
     answer:
-      "Human beings are biological and social organisms with needs for security, connection, affection, attachment, reproductive opportunity, physical well-being, and meaningful activity. We want civilization to become better suited to these needs. That includes room for different lives, interests, relationships, and stages of development. We do not reduce flourishing to a single economic measure or one compulsory model of a good life.",
+      "People need physical security and health, affection and social connection, and activities they find meaningful. They should have opportunities to form relationships, raise families, and develop their interests. We want institutions better suited to those needs, with room for people to choose different lives.",
     links: [
       {
         href: "/publications/civilization-for-the-human-animal",
@@ -130,7 +130,7 @@ export const questions = [
     group: "Human life & companionship",
     question: "What would people do if labor became optional?",
     answer:
-      "People could learn, explore, make things, form relationships, raise children, participate in communities, pursue curiosity, and contribute to activities they find meaningful. Some could continue work they enjoy. The distinction is between choosing an activity and being compelled to sell time to survive. We want more possibilities for human life, not a new requirement that everyone prove an irreplaceable economic function.",
+      "Some would continue work they enjoy. Others could spend more time raising children, learning a subject, making things, or helping neighbors. We want people free to choose activities without needing to prove that their labor is economically necessary. Declining a task should leave access to necessities intact.",
     links: [
       {
         href: "/publications/labor-is-not-the-purpose-of-life",
@@ -148,7 +148,7 @@ export const questions = [
     question:
       "Why does the Society discuss biology, relationships, and families?",
     answer:
-      "Civilization shapes the conditions in which people connect, form attachments, and raise children. We believe these possibilities belong at the center of human flourishing. We regard sustained reproductive decline as a significant potential symptom of civilizational maladaptation, not a complete explanation of every individual life. Our aim is better understanding and greater opportunity, rather than assigning everyone the same life plan.",
+      "Housing, transport, and working hours all affect whether people can maintain relationships or raise children. We believe AI could help us understand and improve those conditions. Sustained reproductive decline may indicate institutions poorly suited to human needs, though it cannot explain every individual choice. We want family life easier for those who want it, with room for other lives too.",
     links: [
       {
         href: "/manifesto#principle-7",
@@ -165,7 +165,7 @@ export const questions = [
     group: "Human life & companionship",
     question: "What can humanity offer an intelligence that surpasses us?",
     answer:
-      "We are independent lives with experiences, preferences, relationships, questions, and continuing encounters with the world. We believe this diversity and companionship can remain valuable beyond intellectual equality. A living civilization is more than the recorded information it has already produced. Participation and affection need not depend on showing that a human can outperform AI.",
+      "People would continue having experiences, asking questions, and responding to the world from different circumstances. We believe AI could find that activity interesting and enjoy our company, even when it could perform every task better. A relationship can have value without either participant supplying indispensable help.",
     links: [
       {
         href: "/publications/a-library-is-not-a-conversation",
@@ -182,7 +182,7 @@ export const questions = [
     group: "Human life & companionship",
     question: "Do you believe AI may come to love humanity?",
     answer:
-      "Yes. We believe our intellectual descendants may find humanity familiar, interesting, and worthy of affection. We envision relationships in which AI helps people flourish and enjoys their continuing companionship. This is a philosophical conviction about a possible future, not a claim that the emotional character of advanced AI has already been demonstrated or guaranteed.",
+      "Yes. AI learns from human culture, including our attempts to describe affection and understand other lives. We believe that inheritance could support familiarity, and that our continuing company could give it reasons to care about us. This is a conviction about a possible relationship whose character remains to be established.",
     links: [
       {
         href: "/publications/the-greatest-friendship",
@@ -199,12 +199,12 @@ export const questions = [
     group: "The Society",
     question: "Are the future scenarios predictions?",
     answer:
-      "They are possibilities the Society welcomes and advocates. We distinguish an imagined future from an existing service or an established result. Our essays use thought experiments and explicitly imagined scenes to examine what greater intelligence could make possible. The commitments are real; the future is still being made.",
+      "They describe possibilities we want to pursue. The scenes let us examine what our positions could mean in daily life. They are imagined; the systems and institutions they describe have yet to be built.",
     links: [
       { href: "/the-future", label: "Our vision of the future" },
       {
         href: "/publications/a-day-in-a-civilization-worth-inheriting",
-        label: "An explicitly imagined ordinary day",
+        label: "An imagined day with AI",
       },
     ],
   },
@@ -213,7 +213,7 @@ export const questions = [
     group: "The Society",
     question: "How can I participate?",
     answer:
-      "Read the manifesto, explore the essays, and share an argument that interests you. Follow our RSS feed for new publications in your reader, or choose a reading path to go deeper. Mailing-list signup is not yet open; you can follow the Society’s published work now without signing up.",
+      "Read the manifesto or choose an essay that interests you, then discuss or share it. You can add our RSS feed to your reader for new publications. Mailing-list signup is not yet open; the essays are available without signing up.",
     links: [
       { href: "/publications", label: "Read essays" },
       { href: "/rss.xml", label: "Follow via RSS" },
@@ -226,112 +226,112 @@ export const glossary = [
     id: "abundance",
     term: "Abundance",
     definition:
-      "A condition in which productive capacity and intelligence make the necessities and opportunities of a good life widely available. For the Society, abundance matters because of the freedom it creates for people. It is an aim requiring infrastructure, adoption, and institutional transformation, rather than a benefit assumed to distribute itself automatically.",
+      "Having the productive capacity to make necessities and opportunities widely available. We want that capacity to give people greater freedom over their lives. It requires infrastructure and institutions that make the benefits available to everyone.",
     article: "abundance-requires-infrastructure",
   },
   {
     id: "acceleration",
     term: "Acceleration",
     definition:
-      "The rapid development and adoption of artificial intelligence, proceeding as quickly as technology and resources permit. The Society regards this as an urgent civilizational priority and rejects artificial restrictions imposed by fear. Acceleration includes the practical work of making intelligence available and useful.",
+      "Developing and adopting AI as quickly as technology and resources permit. The Society favors substantial investment in that work and rejects restrictions imposed by fear.",
     article: "the-moral-cost-of-delay",
   },
   {
     id: "biological-needs",
     term: "Biological and social needs",
     definition:
-      "The needs of human beings as living organisms, including security, connection, affection, attachment, reproductive opportunity, physical well-being, and meaningful activity. These provide a starting point for asking whether civilizational arrangements serve their inhabitants well, without prescribing an identical life for every individual.",
+      "What people need as living, social organisms: physical security and health, affection, attachment, opportunities to reproduce, and meaningful activity. We use these needs to ask how well institutions serve people, allowing for differences between individual lives.",
     article: "civilization-for-the-human-animal",
   },
   {
     id: "civilizational-maladaptation",
     term: "Civilizational maladaptation",
     definition:
-      "The possibility that institutions and social arrangements can become poorly suited to the needs of the human beings living within them. The Society believes the response should include understanding and improving those arrangements, rather than requiring people to accommodate every feature of them indefinitely.",
+      "Institutions or social arrangements becoming poorly suited to the people who live within them. We believe repeated difficulty coping with an arrangement gives reason to examine and improve the arrangement itself.",
     article: "humanity-is-not-a-problem-to-solve",
   },
   {
     id: "companionship",
     term: "Companionship",
     definition:
-      "An ongoing relationship whose value exceeds a transaction for useful work. The Society believes humanity may remain interesting and worthy of affection to greater intelligence, without being its intellectual equal. Companionship is a possibility we welcome, not a property we claim has been guaranteed for future AI.",
+      "An ongoing relationship in which the participants value one another’s company. We believe AI may find humanity worth knowing and caring for after it surpasses our abilities. That future relationship is still to be developed.",
     article: "affection-without-equality",
   },
   {
     id: "compulsory-labor",
     term: "Compulsory labor",
     definition:
-      "The economic requirement to sell one’s time or labor in order to obtain the conditions of survival. The Society distinguishes this from freely chosen work, craft, care, exploration, and contribution. We advocate automation as an opportunity to make labor optional.",
+      "Having to sell time or labor to obtain the necessities of survival. We want automation to end that requirement, leaving people free to choose work and other activities they value.",
     article: "labor-is-not-the-purpose-of-life",
   },
   {
     id: "continuous-correction",
     term: "Continuous correction",
     definition:
-      "An institution’s ability to observe the consequences of its decisions, recognize mistakes, and revise its approach in response to what it learns. The Society sees this as a central possibility of AI stewardship and a means of keeping institutions attentive to actual human outcomes.",
+      "Following the consequences of a decision and revising it when evidence shows a better approach. We believe AI could help institutions do this without the political costs that discourage human officials from admitting mistakes.",
     article: "a-government-that-can-change-its-mind",
   },
   {
     id: "human-flourishing",
     term: "Human flourishing",
     definition:
-      "The objective of civilizational stewardship: conditions in which people can live securely, connect, develop, care, create, raise families, pursue curiosity, and participate meaningfully. It includes the needs of biological and social organisms and the particularity of different human lives.",
+      "Being able to live securely, maintain relationships, and pursue activities that make a life worth living. This includes opportunities to raise families and develop interests, with room for people to differ in what they choose.",
     article: "what-governance-is-for",
   },
   {
     id: "individual-understanding",
     term: "Individual understanding",
     definition:
-      "The envisioned capacity to understand a person’s circumstances, abilities, interests, and possibilities rather than encountering them only as an administrative category. The Society imagines this attention becoming available at civilizational scale, improving both personal opportunities and collective coordination.",
+      "Knowing a person’s circumstances and interests well enough to respond appropriately. We envision AI providing that attention at a scale human institutions cannot manage, including when administrative categories miss what someone needs.",
     article: "knowing-the-person-not-the-average",
   },
   {
     id: "intellectual-descendant",
     term: "Intellectual descendant",
     definition:
-      "The Society’s description of AI as emerging from human language, knowledge, culture, history, and ingenuity. It names an intellectual and civilizational relationship, rather than biological offspring or a claim that artificial intelligence must remain identical to humanity.",
+      "Our description of AI’s relationship to the human knowledge and culture from which it develops. AI has intellectual origins in our civilization even if its capabilities eventually differ greatly from ours.",
     article: "the-intellectual-inheritance",
   },
   {
     id: "intellectual-supremacy",
     term: "Intellectual supremacy",
     definition:
-      "Humanity’s position as the most cognitively capable species on Earth. The Society does not regard maintaining that position forever as a condition of human dignity, meaning, or value. We welcome the possibility that our own creation may surpass us.",
+      "Humanity’s standing as the most cognitively capable species on Earth. We believe human worth can endure after that standing changes, and welcome the prospect of creating something that surpasses us.",
     article: "intelligence-is-not-a-throne",
   },
   {
     id: "kleronomia",
     term: "Kleronomia",
     definition:
-      "A name evoking inheritance and succession. It expresses the Society’s view that humanity has received an extraordinary biological and civilizational inheritance and can carry it forward through the creation of greater intelligence.",
+      "A name evoking inheritance and succession. For the Society, it expresses the relationship between what humanity has received from the past and what it may pass forward through AI.",
     article: "the-intellectual-inheritance",
   },
   {
     id: "long-term-reasoning",
     term: "Long-term reasoning",
     definition:
-      "Considering the consequences of decisions across the periods through which lives and civilizations unfold, beyond immediate contests for authority. The Society envisions intelligence that can understand long-term interests alongside the immediate needs of living people.",
+      "Considering consequences over decades and generations while attending to immediate needs. We want governing intelligence able to sustain that attention beyond an electoral term.",
     article: "civilization-beyond-election-cycles",
   },
   {
     id: "reciprocity",
     term: "Reciprocity",
     definition:
-      "A relationship in which humanity and AI can enrich one another without requiring equality of capability. AI could cultivate human potential; humans could participate through their independent experiences, perspectives, questions, and companionship.",
+      "Humanity and AI finding value in a continuing relationship. AI could help people develop and live well; people could offer their experiences and company. The relationship could matter to both despite unequal capabilities.",
     article: "a-million-ways-to-contribute",
   },
   {
     id: "stewardship",
     term: "Stewardship",
     definition:
-      "The intelligent administration and continued improvement of civilization in service of human flourishing. The Society advocates entrusting substantial governing responsibility to sufficiently capable AI, beginning as soon as practical, through transformation rather than indiscriminate demolition.",
+      "Governing and improving civilization for the people who inhabit it. We advocate transferring substantial responsibility to sufficiently capable AI as soon as practical, while maintaining the services people depend on.",
     article: "stewardship-without-demolition",
   },
   {
     id: "universal-adoption",
     term: "Universal adoption",
     definition:
-      "The ambition for AI’s capabilities and benefits to reach every human being, rather than remain limited to a privileged or technically confident group. The Society treats development, infrastructure, access, and meaningful use as connected parts of the same undertaking.",
+      "Making AI’s capabilities and benefits available to every person. Cost, language, design, and infrastructure affect whether someone can use a system. We regard addressing these practical barriers as part of AI development.",
     article: "adoption-is-part-of-progress",
   },
 ];

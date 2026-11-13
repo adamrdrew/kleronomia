@@ -47,7 +47,7 @@ export function Footer() {
       </div>
       <div className="container footer-bottom">
         <small>© {new Date().getFullYear()} The Kleronomia Society</small>
-        <span>Made for a future worth welcoming.</span>
+        <span>Independent AI advocacy.</span>
         <Link href="/about#visual-studies" className="imagery-credit">
           Visual studies generated with AI
         </Link>
