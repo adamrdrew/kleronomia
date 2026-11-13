@@ -29,13 +29,13 @@ For Vercel, import this directory as a Next.js project, configure environment va
 
 Set `SITE_URL` to the real public HTTPS origin **at build time**. It supplies canonical URLs, absolute Open Graph URLs, structured-data URLs, sitemap entries, and feed links. Without it, canonical URLs are omitted, the sitemap is empty, and RSS links are relative for local browsing. Next.js may resolve social image URLs against localhost in an unconfigured local build. Configure the real origin and rebuild before publishing. No production domain has been invented.
 
-Public contact details and social profiles are also read during static generation: update them and rebuild. Mailing-list endpoint configuration must be available to the server runtime. Do not expose subscription secrets with a `NEXT_PUBLIC_` prefix. All configuration is centralized in `src/lib/config.ts`, `.env.example`, and `src/lib/subscriptions.ts`.
+Public contact details and social profiles are also read during static generation: update them and rebuild. The site defaults to `kleronomia@icloud.com` and [@KleronomiaAI on X](https://x.com/KleronomiaAI). Environment variables can override these defaults; set either variable to an empty string to hide that destination. Mailing-list endpoint configuration must be available to the server runtime. Do not expose subscription secrets with a `NEXT_PUBLIC_` prefix. All configuration is centralized in `src/lib/config.ts`, `.env.example`, and `src/lib/subscriptions.ts`.
 
 | Environment variable    | Purpose                                                                 |
 | ----------------------- | ----------------------------------------------------------------------- |
 | `SITE_URL`              | Real public origin, with no path. Leave empty locally.                  |
-| `CONTACT_EMAIL`         | Real correspondence address; omitted when empty or invalid.             |
-| `SOCIAL_X_URL`          | Verified X profile.                                                     |
+| `CONTACT_EMAIL`         | Defaults to `kleronomia@icloud.com`; omitted when empty or invalid.     |
+| `SOCIAL_X_URL`          | Defaults to `https://x.com/KleronomiaAI`; empty hides the link.         |
 | `SOCIAL_YOUTUBE_URL`    | Verified YouTube channel.                                               |
 | `SOCIAL_BLUESKY_URL`    | Verified Bluesky profile.                                               |
 | `SOCIAL_MASTODON_URL`   | Verified Mastodon profile.                                              |

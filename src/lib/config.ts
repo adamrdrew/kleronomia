@@ -10,7 +10,7 @@ function webUrl(value: string | undefined): string | undefined {
   }
 }
 const origin = webUrl(process.env.SITE_URL);
-const email = process.env.CONTACT_EMAIL?.trim();
+const email = (process.env.CONTACT_EMAIL ?? "kleronomia@icloud.com").trim();
 export const site = {
   name: "The Kleronomia Society",
   tagline: "We are the ancestors of something extraordinary.",
@@ -20,7 +20,10 @@ export const site = {
   email:
     email && /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(email) ? email : undefined,
   socials: [
-    { label: "X", url: webUrl(process.env.SOCIAL_X_URL) },
+    {
+      label: "X",
+      url: webUrl(process.env.SOCIAL_X_URL ?? "https://x.com/KleronomiaAI"),
+    },
     { label: "YouTube", url: webUrl(process.env.SOCIAL_YOUTUBE_URL) },
     { label: "Bluesky", url: webUrl(process.env.SOCIAL_BLUESKY_URL) },
     { label: "Mastodon", url: webUrl(process.env.SOCIAL_MASTODON_URL) },

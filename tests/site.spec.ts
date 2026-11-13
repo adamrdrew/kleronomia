@@ -183,10 +183,13 @@ test("category filters, sharing, and honest fallback states work", async ({
   await expect(page.locator("form")).toHaveCount(0);
   await page.goto("/contact");
   await expect(
-    page.getByRole("heading", {
-      name: "Contact details are not yet available.",
-    }),
-  ).toBeVisible();
+    page.getByRole("link", { name: "kleronomia@icloud.com" }),
+  ).toHaveAttribute("href", "mailto:kleronomia@icloud.com");
+  await expect(
+    page
+      .locator(".contact-socials")
+      .getByRole("link", { name: "X", exact: true }),
+  ).toHaveAttribute("href", "https://x.com/KleronomiaAI");
 });
 test("all internal links and manifesto anchors resolve", async ({
   page,
@@ -299,7 +302,7 @@ test("reading paths, contents, reference links, and exploration menus connect th
   await expect(page.locator("#stewardship")).toBeInViewport();
 });
 
-test("unconfigured participation gives working next steps and the mobile homepage has readable shortcuts", async ({
+test("unconfigured mailing list gives working next steps and the mobile homepage has readable shortcuts", async ({
   page,
   request,
 }) => {
@@ -340,16 +343,16 @@ test("unconfigured participation gives working next steps and the mobile homepag
   ).toHaveCount(0);
   await expect(page.locator("form")).toHaveCount(0);
   await page.goto("/contact");
-  await expect(page.locator("main")).not.toContainText(
-    "use the contact address below",
+  await expect(page.locator("main")).toContainText(
+    "Email us at the address below.",
   );
   await expect(
-    page.getByRole("link", { name: "Follow via RSS", exact: true }),
-  ).toHaveAttribute("href", "/rss.xml");
+    page.getByRole("link", { name: "kleronomia@icloud.com" }),
+  ).toHaveAttribute("href", "mailto:kleronomia@icloud.com");
   await page.goto("/questions");
   await expect(
     page.getByRole("link", { name: "A different question?" }),
-  ).toHaveCount(0);
+  ).toHaveAttribute("href", "/contact");
   await page.locator("#participate summary").click();
   await expect(page.locator("#participate")).not.toContainText("provider");
   await expect(page.locator("#participate")).toContainText(
