@@ -78,7 +78,7 @@ export function ExploreLibrary({ compact = false }: { compact?: boolean }) {
       <div className="section-topline">
         <p className="eyebrow">ESSAYS BY SUBJECT</p>
         <Link className="text-link" href="/ideas">
-          Explore every subject
+          Browse subjects
           <ArrowUpRight size={17} />
         </Link>
       </div>

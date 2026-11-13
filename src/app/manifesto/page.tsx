@@ -32,7 +32,7 @@ export default function Manifesto() {
             ))}
           </nav>
           <a href="#manifesto-end" className="toc-end">
-            To the closing declaration ↓
+            Closing declaration ↓
           </a>
         </aside>
         <article className="manifesto-body">

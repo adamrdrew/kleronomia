@@ -74,9 +74,7 @@ export function JoinCallout() {
       <div>
         <p className="eyebrow">FROM THE SOCIETY</p>
         <h2>
-          {available
-            ? "The future is our inheritance."
-            : "Read more from the Society."}
+          {available ? "The future is our inheritance." : "Read more essays."}
         </h2>
         {!available && (
           <p className="callout-description">

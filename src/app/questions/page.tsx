@@ -17,7 +17,7 @@ export default function Questions() {
       ? {
           ...question,
           answer:
-            "Read the manifesto or choose an essay, then discuss or share it. Join our mailing list for new publications, announcements, and invitations to contribute, or add the RSS feed to your reader. Signing up expresses interest in our work and does not create formal legal membership.",
+            "Read the manifesto or an essay, then discuss or share it. Join our mailing list for essays, announcements, and invitations to contribute, or add the RSS feed to your reader. Signing up adds you to the mailing list; it does not create formal legal membership.",
           links: [
             { href: "/join", label: "Join the Society" },
             { href: "/rss.xml", label: "Follow via RSS" },
@@ -31,8 +31,8 @@ export default function Questions() {
     <>
       <PageHeading eyebrow="COMMON QUESTIONS" title="Your questions answered.">
         <p>
-          Our answers about AI development, governance, work, and companionship,
-          with links to the full arguments.
+          Read our answers about AI development, government, work, and
+          companionship, with links to the full arguments.
         </p>
       </PageHeading>
       <div className="container questions-layout">

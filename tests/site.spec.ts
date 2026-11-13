@@ -170,7 +170,7 @@ test("category filters, sharing, and honest fallback states work", async ({
   await page.getByLabel("Reading order").selectOption("shortest");
   await expect(
     page.locator(".publication-index .publication-card").first(),
-  ).toContainText("2 min read");
+  ).toContainText("1 min read");
   await page.goto("/publications/the-dog-argument");
   await page.getByRole("button", { name: "Copy link", exact: true }).click();
   await expect(page.getByRole("status")).toHaveText("Link copied.");

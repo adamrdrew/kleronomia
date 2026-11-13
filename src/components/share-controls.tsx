@@ -8,7 +8,7 @@ export function ShareControls({ title }: { title: string }) {
       await navigator.clipboard.writeText(location.href);
       setStatus("Link copied.");
     } catch {
-      setStatus("Copy this page’s address from your browser to share it.");
+      setStatus("Copy the address from your browser.");
     }
   }
   async function share() {
@@ -23,7 +23,7 @@ export function ShareControls({ title }: { title: string }) {
   }
   return (
     <div className="share-controls">
-      <span>Pass the idea on</span>
+      <span>Share this essay</span>
       <button type="button" onClick={copy}>
         {status === "Link copied." ? <Check size={15} /> : <Copy size={15} />}
         Copy link

@@ -49,7 +49,7 @@ export function Footer() {
         <small>© {new Date().getFullYear()} The Kleronomia Society</small>
         <span>Independent AI advocacy.</span>
         <Link href="/about#visual-studies" className="imagery-credit">
-          Visual studies generated with AI
+          AI-generated images
         </Link>
         <ThemeControl />
       </div>

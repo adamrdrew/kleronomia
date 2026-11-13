@@ -6,7 +6,7 @@ import { getPublication } from "@/lib/publications";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "A Glossary of Ideas",
-  "Definitions of the terms we use in our arguments, with links to related essays.",
+  "Definitions of our terms, with links to the essays that explain them.",
   "/glossary",
 );
 export default function Glossary() {
@@ -19,8 +19,7 @@ export default function Glossary() {
         title="A glossary of ideas."
       >
         <p>
-          What we mean by the terms in our arguments, with links to the essays
-          that explain them.
+          Definitions of our terms, with links to the essays that explain them.
         </p>
       </PageHeading>
       <nav

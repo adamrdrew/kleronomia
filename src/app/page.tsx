@@ -77,7 +77,7 @@ export default function Home() {
             <p className="hero-lead">{content.homeHeroDeclaration}</p>
             <div className="hero-actions">
               <Link href="/manifesto" className="button">
-                Read Our Manifesto
+                Read the manifesto
                 <ArrowUpRight size={17} />
               </Link>
               <SocietyAction className="text-link" />
@@ -127,16 +127,14 @@ export default function Home() {
       <nav className="container begin-grid" aria-label="Begin exploring">
         <Link href="/start-here">
           <span className="eyebrow">NEW TO THE SOCIETY?</span>
-          <strong>A place to begin.</strong>
-          <p>
-            An introduction to our positions and three essays to start with.
-          </p>
+          <strong>Start here.</strong>
+          <p>Our positions and three essays to read first.</p>
           <ArrowUpRight size={19} />
         </Link>
         <Link href="/reading-paths">
           <span className="eyebrow">FOLLOW AN ARGUMENT</span>
           <strong>Choose a reading path.</strong>
-          <p>Essays grouped by question, with a suggested reading order.</p>
+          <p>Choose a question and read the essays in order.</p>
           <ArrowUpRight size={19} />
         </Link>
         <Link href="/questions">
@@ -166,7 +164,7 @@ export default function Home() {
             <h2>
               The greater danger is <em>standing still.</em>
             </h2>
-            <TextLink href="/principles">Explore Our Principles</TextLink>
+            <TextLink href="/principles">Read our principles</TextLink>
           </div>
           <Copy text={urgency.body!} />
         </div>
@@ -205,7 +203,7 @@ export default function Home() {
             </h2>
             <PhotoStudy image="dog" className="section-photo" />
             <TextLink href="/publications/the-dog-argument">
-              Read the Full Argument
+              Read the full argument
             </TextLink>
           </div>
           <Copy text={dog.body!} />
@@ -216,7 +214,7 @@ export default function Home() {
           <p className="eyebrow">05 / AN INTELLIGENT PARTNERSHIP</p>
           <h2>{companion.title}</h2>
           <PhotoStudy image="piano" className="section-photo" />
-          <TextLink href="/the-future">Imagine the Future</TextLink>
+          <TextLink href="/the-future">Imagine the future</TextLink>
         </div>
         <Copy text={companion.body!} />
       </section>
@@ -255,7 +253,7 @@ export default function Home() {
           <p className="eyebrow">FROM THE SOCIETY</p>
           <TextLink href="/publications">All publications</TextLink>
         </div>
-        <h2>Ideas for what comes next.</h2>
+        <h2>Essays on AI and our future.</h2>
         <div className="publication-grid">
           {getFeaturedPublications().map((article, i) => (
             <PublicationCard key={article.slug} article={article} index={i} />

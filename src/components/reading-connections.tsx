@@ -30,7 +30,7 @@ export function ReadingConnections({
       ],
     },
     about: {
-      title: "Get to know the ideas.",
+      title: "Read the arguments.",
       slugs: [
         "the-intellectual-inheritance",
         "humanity-is-not-a-problem-to-solve",

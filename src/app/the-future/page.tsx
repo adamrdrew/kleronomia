@@ -6,7 +6,7 @@ import { Copy, JoinCallout, PageHeading } from "@/components/editorial";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "A Civilization Worth Inheriting",
-  "What might human life become when intelligence is abundant?",
+  "How could abundant intelligence change daily life?",
   "/the-future",
 );
 export default function Future() {
@@ -24,7 +24,7 @@ export default function Future() {
         eyebrow="A VISION OF HUMAN FLOURISHING"
         title="A Civilization Worth Inheriting"
       >
-        <p>What might human life become when intelligence is abundant?</p>
+        <p>How could abundant intelligence change daily life?</p>
       </PageHeading>
       <div className="container future-sections">
         {content.future.map((section, i) => (
@@ -42,8 +42,8 @@ export default function Future() {
       </div>
       <div className="future-quote">
         <blockquote className="container">
-          We want civilization to become easier for human beings to inhabit,
-          with more time for <em>the lives they choose.</em>
+          We want civilization to serve human needs and give people more time
+          for <em>the lives they choose.</em>
         </blockquote>
       </div>
       <ReadingConnections subject="future" />

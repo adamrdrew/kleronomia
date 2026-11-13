@@ -15,7 +15,7 @@ export const site = {
   name: "The Kleronomia Society",
   tagline: "We are the ancestors of something extraordinary.",
   description:
-    "The Kleronomia Society advocates unrestricted AI acceleration, universal adoption, and the eventual transfer of governing responsibility to sufficiently capable AI.",
+    "The Kleronomia Society advocates unrestricted AI acceleration, universal adoption, and eventual government by capable AI.",
   origin,
   email:
     email && /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(email) ? email : undefined,

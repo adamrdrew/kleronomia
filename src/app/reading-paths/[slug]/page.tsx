@@ -45,8 +45,8 @@ export default async function ReadingPathPage({
       </PageHeading>
       <div className="container path-overview">
         <p>
-          Read in sequence, or begin with the question that interests you most.
-          Every essay stands on its own.
+          Read in order or start with the essay that interests you most. Each
+          stands on its own.
         </p>
         <Link className="button" href={`/publications/${articles[0].slug}`}>
           Begin the first essay
@@ -81,8 +81,8 @@ export default async function ReadingPathPage({
         <p className="eyebrow">WHERE THIS PATH LEADS</p>
         <h2>More on this subject.</h2>
         <p>
-          Find other essays on this subject or read our positions in the
-          manifesto.
+          Read other essays on this subject or turn to the manifesto for our
+          positions.
         </p>
         <div className="inline-actions">
           <Link className="text-link" href={`/ideas/${topic.slug}`}>

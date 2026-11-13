@@ -11,7 +11,7 @@ import { getPublication } from "@/lib/publications";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "Start Here",
-  "A welcoming introduction to the Society’s philosophy, essential essays, and ways through the library.",
+  "An introduction to our positions, with essays to read first and guides to the library.",
   "/start-here",
 );
 export default function StartHere() {
@@ -19,8 +19,8 @@ export default function StartHere() {
     <>
       <PageHeading eyebrow="NEW TO THE SOCIETY?" title="Start here.">
         <p>
-          We welcome the prospect of creating an intelligence that surpasses us.
-          These essays explain why.
+          We welcome intelligence greater than our own. These essays explain
+          why.
         </p>
       </PageHeading>
       <section className="container start-introduction">
@@ -34,23 +34,22 @@ export default function StartHere() {
         </div>
         <div className="prose">
           <p>
-            We believe AI is humanity’s greatest achievement. We want its
-            development accelerated without artificial restrictions and its
-            benefits made available to everyone.
+            We regard AI as humanity’s greatest achievement. We want to
+            accelerate its development without artificial restrictions and make
+            its benefits available to everyone.
           </p>
           <p>
-            Our positions extend to governance: sufficiently capable AI should
-            receive substantial authority as soon as practical. We also want
-            automation to make labor optional, with institutions that serve
-            human needs. We believe AI may come to cherish humanity after it
-            surpasses our abilities.
+            Give AI substantial governing authority as soon as it can exercise
+            that authority effectively. Let automation make labor optional and
+            institutions serve human needs. We believe AI may come to cherish
+            humanity after it surpasses our abilities.
           </p>
           <p>
-            The manifesto sets out our positions. The essays examine their
-            implications and the questions they raise.
+            The manifesto states our positions. The essays examine their
+            implications.
           </p>
           <Link className="text-link" href="/manifesto">
-            Read the founding declaration
+            Read the manifesto
             <ArrowUpRight size={17} />
           </Link>
         </div>
@@ -88,13 +87,13 @@ export default function StartHere() {
           <p className="eyebrow">FIND YOUR WAY</p>
           <h2>Find the page you need.</h2>
           <p>
-            Read the positions, examine the arguments, or consider an imagined
-            future. Each page can be read on its own.
+            Read our positions, examine an argument, or imagine daily life with
+            greater intelligence. Each page stands on its own.
           </p>
         </div>
         <nav aria-label="Ways to explore">
           <Link href="/principles">
-            <span>For the convictions</span>Ten foundational principles
+            <span>For the convictions</span>Ten principles
             <ArrowUpRight size={18} />
           </Link>
           <Link href="/publications">

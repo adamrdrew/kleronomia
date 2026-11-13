@@ -6,7 +6,7 @@ import { site } from "@/lib/config";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "Start a Conversation",
-  "Questions about our arguments and proposals for advancing AI development and adoption.",
+  "Contact the Society with questions about our arguments or proposals for advancing AI.",
   "/contact",
 );
 export default function Contact() {
@@ -32,8 +32,8 @@ export default function Contact() {
             <>
               <h2>Contact details are not yet available.</h2>
               <p className="contact-next-step">
-                You can read our essays or add the RSS feed to your reader for
-                new publications.
+                Read our essays or add the RSS feed to your reader for new
+                publications.
               </p>
               <div className="inline-actions">
                 <Link href="/publications" className="text-link">

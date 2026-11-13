@@ -7,7 +7,7 @@ import { JoinCallout, PageHeading } from "@/components/editorial";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "What We Believe",
-  "Ten foundational convictions about artificial intelligence and humanity's future.",
+  "Ten principles for AI development and humanity's future.",
   "/principles",
 );
 export default function Principles() {
@@ -18,8 +18,8 @@ export default function Principles() {
         title="What We Believe"
       >
         <p>
-          The Kleronomia Society is founded on ten convictions about artificial
-          intelligence and humanity’s future.
+          These ten principles guide our advocacy of AI development and the
+          future we want it to make possible.
         </p>
       </PageHeading>
       <div className="container principles-photographs">

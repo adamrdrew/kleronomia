@@ -138,9 +138,7 @@ test("configured signup and contact have accurate navigation and visitor-facing 
     "Join the Society",
   );
   await page.goto("http://127.0.0.1:3100/contact");
-  await expect(
-    page.getByText("For inquiries, use the contact address below."),
-  ).toBeVisible();
+  await expect(page.getByText("Email us at the address below.")).toBeVisible();
   await expect(
     page.getByRole("link", { name: "correspondence@example.org" }),
   ).toHaveAttribute("href", "mailto:correspondence@example.org");

@@ -8,8 +8,8 @@ import { site } from "@/lib/config";
 import { pageMetadata } from "@/lib/metadata";
 export const dynamic = "force-dynamic";
 export const metadata = pageMetadata(
-  "Join the Future",
-  "Explore the Society’s publications, follow RSS, and find opportunities to participate.",
+  "Join the Society",
+  "Read our essays, follow new publications, and find ways to contribute.",
   "/join",
 );
 export default function Join() {
@@ -23,12 +23,12 @@ export default function Join() {
     <>
       <PageHeading
         eyebrow={available ? "JOIN THE SOCIETY" : "STAY CONNECTED"}
-        title={available ? "Join the Future" : "Follow the Future"}
+        title={available ? "Join the Society" : "Follow our work"}
       >
         <p>
           {available
-            ? "Read our work, share an argument, or sign up for publications and announcements."
-            : "Read our work, share an argument, or follow new publications through our RSS feed."}
+            ? "Read our essays, share an argument, or join the mailing list."
+            : "Read our essays, share an argument, or follow new publications through RSS."}
         </p>
       </PageHeading>
       <div className="container join-layout">
@@ -49,8 +49,8 @@ export default function Join() {
               <Rss size={28} strokeWidth={1} />
               <h2>Read new essays.</h2>
               <p>
-                Mailing-list signup is not yet available. Every essay is open to
-                read, and new publications appear in our RSS feed.
+                Mailing-list signup is not yet available. Read every essay now
+                and follow new publications through RSS.
               </p>
               <Link href="/publications" className="button">
                 Read essays
@@ -61,8 +61,8 @@ export default function Join() {
                 <ArrowUpRight size={17} />
               </a>
               <p className="form-note">
-                Copy the RSS feed address into your preferred reader to follow
-                new essays. No signup is needed.
+                Add the feed address to your reader. You can follow new essays
+                without signing up.
               </p>
               {site.email && (
                 <a

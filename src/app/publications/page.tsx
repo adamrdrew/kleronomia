@@ -8,7 +8,7 @@ import { topics, readingPaths } from "@/content/library";
 import { pageMetadata } from "@/lib/metadata";
 export const metadata = pageMetadata(
   "Publications",
-  "A growing library of essays on intelligence, acceleration, stewardship, human flourishing, and our shared future.",
+  "Essays on AI development, government, optional labor, and humanity’s future.",
   "/publications",
 );
 export default function Publications() {
@@ -29,11 +29,11 @@ export default function Publications() {
     <>
       <PageHeading
         eyebrow="THE SOCIETY’S JOURNAL"
-        title="Ideas for what comes next."
+        title="Essays on AI and our future."
       >
         <p>
-          Essays on AI development and the future we want it to make possible.
-          Search the library or choose a subject below.
+          Read our arguments for AI development and the future we advocate.
+          Search the library or choose a subject.
         </p>
       </PageHeading>
       <section className="container journal-front">
@@ -51,7 +51,7 @@ export default function Publications() {
           </h2>
           <p>{featured.description}</p>
           <Link href={`/publications/${featured.slug}`} className="text-link">
-            Begin the argument
+            Read the essay
             <ArrowUpRight size={17} />
           </Link>
           <div className="journal-feature-meta">
@@ -63,22 +63,21 @@ export default function Publications() {
           <Link href="/reading-paths">
             <span>Follow an argument.</span>
             <p>
-              {readingPaths.length} reading paths with a suggested order for
-              each question.
+              {readingPaths.length} questions, each with essays in a suggested
+              order.
             </p>
             <ArrowUpRight size={20} />
           </Link>
           <Link href="/ideas">
             <span>Explore a subject.</span>
             <p>
-              {topics.length} subjects, each with an introduction and related
-              essays.
+              {topics.length} subjects with introductions and related essays.
             </p>
             <ArrowUpRight size={20} />
           </Link>
           <Link href="/questions">
             <span>Begin with a question.</span>
-            <p>Direct answers, with links to the arguments behind them.</p>
+            <p>Read our answers and follow links to the full arguments.</p>
             <ArrowUpRight size={20} />
           </Link>
         </div>
@@ -87,7 +86,7 @@ export default function Publications() {
         <span>{all.length} essays</span>
         <span>{topics.length} subjects</span>
         <span>{readingPaths.length} reading paths</span>
-        <span>Open to all readers.</span>
+        <span>Free to read.</span>
       </div>
       <PublicationIndex articles={articles} />
       <JoinCallout />

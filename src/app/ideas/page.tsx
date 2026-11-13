@@ -13,7 +13,7 @@ export default function Ideas() {
       <PageHeading eyebrow="FIVE CONNECTED SUBJECTS" title="Explore the ideas.">
         <p>
           We believe greater intelligence can help humanity flourish. Choose a
-          subject to read our case and the questions behind it.
+          subject to examine the argument.
         </p>
       </PageHeading>
       <section className="container ideas-index topic-list">

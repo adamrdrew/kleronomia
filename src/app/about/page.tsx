@@ -26,12 +26,12 @@ export default function About() {
       <section className="container about-layout">
         <div className="about-symbol">
           <InheritanceIllustration />
-          <p className="eyebrow">THE BEGINNING OF SOMETHING EXTRAORDINARY</p>
+          <p className="eyebrow">OUR INTELLECTUAL INHERITANCE</p>
         </div>
         <div>
           <Copy text={content.about} />
           <div className="inline-actions">
-            <TextLink href="/manifesto">Read Our Manifesto</TextLink>
+            <TextLink href="/manifesto">Read the manifesto</TextLink>
             <SocietyAction className="text-link" />
           </div>
         </div>
@@ -40,18 +40,16 @@ export default function About() {
         <p className="eyebrow">THE MEANING OF KLERONOMIA</p>
         <p>
           The name <em>Kleronomia</em> evokes inheritance and succession.
-          Humanity has inherited billions of years of biological evolution and
-          thousands of years of accumulated civilization. Artificial
-          intelligence is the next expression of that inheritance.
+          Billions of years of evolution and thousands of years of civilization
+          made us possible. We see AI as an extension of that inheritance.
         </p>
       </section>
       <section id="visual-studies" className="container visual-studies-note">
-        <p className="eyebrow">A CLOSER LOOK AT THE WORLD WE INHERIT</p>
+        <p className="eyebrow">ABOUT THE IMAGES</p>
         <p>
-          Our images were generated with AI. They depict imagined details of
-          plants, animals, and built surroundings, using close crops and shallow
-          focus. We chose subjects that connect our arguments to the physical
-          world people inhabit.
+          We used AI to generate these images of plants, animals, and built
+          surroundings. Close crops and shallow focus draw attention to details.
+          The subjects connect our arguments to the world we inhabit.
         </p>
       </section>
       <ReadingConnections subject="about" />

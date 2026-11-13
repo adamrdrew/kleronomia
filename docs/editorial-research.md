@@ -33,3 +33,16 @@ The earlier essays repeatedly used five sections followed by a bold slogan. Many
 Preserve meaningful distinctions: an invitation can be refused; compulsory labor cannot. Preserve the degree of certainty: a thought experiment challenges an assumption about AI without proving its future behavior. Establish an imagined scene as imagined, then let the scene proceed without interrupting it with repeated disclaimers.
 
 Keep the Society’s positions on unrestricted acceleration, universal adoption, eventual AI governance, optional labor, human biological needs, and possible affection between AI and humanity. The established taglines and meaningful essay titles can remain. Editorial improvement should leave the reader better able to understand the argument being made.
+
+## Composition guidance from The Elements of Style
+
+The supplied 26-page PDF adds principles for composition and usage. Apply them to whole passages, keeping examples and qualifications that develop an argument.
+
+- Give each paragraph one topic. Open with its point or subject, develop it, and end with a relevant consequence. Combine sentences that divide one thought into unnecessary steps.
+- Prefer active verbs and clear subjects. Say who acts and what they do: “Give capable AI governing authority” makes the action clearer than “the eventual transfer of governing responsibility.” Use passive voice when the subject deserves the emphasis.
+- State the position directly. Keep denials that answer a real question and uncertainty that belongs to a prediction. Avoid qualifications that merely weaken a definite argument.
+- Remove words and sentences that add no meaning. Concision can include detailed examples and long sentences when each part earns its place.
+- Give related ideas parallel forms. Keep modifiers close to the words they qualify, choose conjunctions that express the relationship, and avoid monotonous sentence patterns.
+- Place emphasis where the argument needs it, often at the end of a sentence or paragraph. Keep tense consistent within an imagined scene or summary.
+
+These principles come chiefly from sections 9–18. The usage sections also guide punctuation, possessives, and word choice. Retain contemporary English spelling and pronoun usage when older examples differ.
